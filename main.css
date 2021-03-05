@@ -97,6 +97,14 @@
   border: 2px solid #000000a1;
 }
 
+.header .container .content .rightsection .button a {
+  cursor: pointer;
+}
+
+.header .container .content .rightsection .button:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 425px) {
   .header .container .content .rightsection .button {
     margin: auto;
@@ -135,6 +143,7 @@
 }
 
 .menu .menu__list {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,6 +165,8 @@
   width: 17%;
   padding: 23px 0px;
   text-align: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .menu .menu__element:hover {
@@ -203,6 +214,9 @@
   padding: 0px 5px;
   width: 200px;
   background-color: #ffcc00;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,7 +236,7 @@
   font: 12px Myriad Pro, sans-serif;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.9);
-  cursor: auto;
+  cursor: pointer;
 }
 
 .firstsection .firstsection__links {
@@ -375,6 +389,9 @@
   height: 50px;
   width: 200px;
   background-color: #ffcc00;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -448,6 +465,9 @@
   text-align: center;
   border: 2px solid #fff;
   padding: 30px 0px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 725px) {
@@ -571,6 +591,9 @@
   padding: 1em 4em;
   background-color: #ffcc00;
   display: inline-block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
   border: 1px solid;
   border-color: #ffcc00;
 }
@@ -779,6 +802,7 @@
   position: relative;
   top: -4px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .footer {
